@@ -9,14 +9,11 @@ import android.view.KeyEvent;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import com.example.grosjean.githubapi.rest.models.Item;
 import com.example.grosjean.githubapi.rest.models.Repo;
 import com.example.grosjean.githubapi.rest.services.GithubServices;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

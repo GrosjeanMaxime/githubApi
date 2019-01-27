@@ -9,10 +9,9 @@
     android:orientation="horizontal"
     android:padding="20dip">
 
-
     <TextView
         android:id="@+id/repoFullName"
-        android:layout_width="wrap_content"
+        android:layout_width="500px"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="false"
         android:layout_marginTop="5dp"

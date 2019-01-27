@@ -1,17 +1,12 @@
 package com.example.grosjean.githubapi;
 
 import android.content.Context;
-import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
 import com.example.grosjean.githubapi.rest.models.Branches;
-import com.example.grosjean.githubapi.rest.models.Item;
-
 import java.util.List;
 
 public class MyRepoBranchesAdapter extends RecyclerView.Adapter<MyRepoBranchesAdapter.MyViewHolder> {
